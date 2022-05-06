@@ -1,12 +1,11 @@
 header {
     position: relative;
-    bacground-color: white;
-    background-image: url("../images/logo2.png)");
+    background-color: white;
+    background-image: url('../images/logo.png');
     background-repeat: no-repeat;
-    object-fit: none;
-    object-position: 20px center;
+    background-position: 20px center;
     height: 70px;
     width: 100%;
-    border-bottom: 1px #CCCCCC solid;
+    border-bottom: 1px #cccccc solid;
     
 }
