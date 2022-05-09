@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles/4-common.css">
+    <link rel="stylesheet" href="styles/3-footer.css">
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/6-filters.css">
+    <link rel="stylesheet" href="styles/100-places.css">
+    <link rel="icon" href="images/icon.png">
+    <meta charset="utf-8">
+    <title>AirBnB clone</title>
+  </head>
+  <body>
+    <header>
+    </header>
+    <div class="container">
+      <section class="filter">
+	<div class="locations">
+	  <h3> States </h3>
+	  <h4> Lagos, Edo, Anambra,... </h4>
+	  <ul class="popover">
+	    <li>
+	      <h2> Lagos </h2>
+	      <ul>
+		<li> Ikeja </li>
+		<li> Iponri </li>
+		<li> Lekki </li>
+	      </ul>
+	    </li>
+	    <li>
+	      <h2 class="last"> Edo </h2>
+	      <ul>
+		<li> Benin-city </li>
+		<li> Auchi </li>
+		<li> Ekpoma </li>
+	      </ul>
+	    </li>
+	  </ul>
+	</div>
+	<div class="amenities">
+	  <h3> Amenities </h3>
+	  <h4> Water, Laundry, Kitchen,... </h4>
+	  <ul class="popover">
+	    <li> Water </li>
+	    <li> Laundry </li>
+	    <li> Kitchen </li>
+	  </ul>  
+	</div>
+	<button> Search </button>
+      </section>
+      <section class="places">
+	<h1>Places</h1>
+	<article>
+	  <h2>My Home</h2>
+	  <div class="price_by_night"> <p> $70 </p>
+	  </div>
+	  <div class="information">
+	    <div class="max_guest">
+	      <span> 2 guests </span>
+	    </div>
+	    <div class="number_rooms">
+	      <span> 2 bedrooms </span>
+	    </div>
+	    <div class="number_bathrooms">
+	      <span> 2 Bathrooms </span>
+	    </div>
+	  </div>
+	  <div class="user">
+	    <b> Owner </b>: Osatohanmwen Nosa-Ojo
+	  </div>
+	  <div class="Description">
+	    This is a brief description of my home. It's a 2 bed, 2 bath ensuite apartment.
+	  </div>
+	  <div class="amenities">
+	    <ul>
+	      <li> <div class="icon_pet"></div> Pet friendly </li>
+	      <li> <div class="icon_tv"></div> TV </li>
+	      <li> <div class="icon_wifi"></div> Wifi </li>
+	    </ul>
+	  </div>
+	  <div class="reviews">
+	    <h2> 2 Reviews </h2>
+	    <ul>
+	      <li><h3> From Frances on the 12th of June, 2021</h3><p> Best place ever, cool environment, clean and very comfortable</p></li>
+	      <li> <h3> From Rebecca in the 10th of August, 2021</h3><p> Fantastic place, clean, good location, good atention.</p></li>
+	    </ul>
+	  </div>
+	</article>
+	<article>
+	  <h2>Tiny House</h2>
+	  <div class="price_by_night"> <p> $120 </p>
+	  </div>
+	  <div class="information">
+	    <div class="max_guest">
+	      <span> 3 guests </span>
+	    </div>
+	    <div class="number_rooms">
+	      <span> 3 bedrooms </span>
+	    </div>
+	    <div class="number_bathrooms">
+	      <span> 3 Bathrooms </span>
+	    </div>
+	  </div>
+	  <div class="user">
+	    <b> Owner </b>: Osatohanmwen Nosa-Ojo
+	  </div>
+	  <div class="Description">
+	    This is a brief description of my home. It's a 2 bed, 2 bath ensuite apartment.
+	  </div>
+	  <div class="amenities">
+	    <ul>
+	      <li> <div class="icon_pet"></div> Pet friendly </li>
+	      <li> <div class="icon_tv"></div> TV </li>
+	      <li> <div class="icon_wifi"></div> Wifi </li>
+	    </ul>
+	  </div>
+	  <div class="reviews">
+	    <h2> 2 Reviews </h2>
+	    <ul>
+	      <li><h3> From Frances on the 12th of June, 2021</h3><p> Best place ever, cool environment, clean and very comfortable</p></li>
+	      <li> <h3> From Rebecca in the 10th of August, 2021</h3><p> Fantastic place, clean, good location, good atention.</p></li>
+	    </ul>
+          </div>
+	</article>
+	<article>
+	  <h2>A Suite</h2>
+	  <div class="price_by_night"> <p> $200 </p>
+	  </div>
+	  <div class="information">
+	    <div class="max_guest">
+	      <span> 4 guests </span>
+	    </div>
+	    <div class="number_rooms">
+	      <span> 4 bedrooms </span>
+	    </div>
+	    <div class="number_bathrooms">
+	      <span> 4 Bathrooms </span>
+	    </div>
+	  </div>
+	  <div class="user">
+	    <b> Owner </b>: Osatohanmwen Nosa-Ojo
+	  </div>
+	  <div class="Description">
+	    This is a brief description of my home. It's a 2 bed, 2 bath ensuite apartment.
+	  </div>
+	  <div class="amenities">
+	    <ul>
+	      <li> <div class="icon_pet"></div> Pet friendly </li>
+	      <li> <div class="icon_tv"></div> TV </li>
+	      <li> <div class="icon_wifi"></div> Wifi </li>
+	    </ul>
+	  </div>
+	  <div class="reviews">
+	    <h2> 2 Reviews </h2>
+	    <ul>
+	      <li><h3> From Frances on the 12th of June, 2021</h3><p> Best place ever, cool environment, clean and very comfortable</p></li>
+	      <li> <h3> From Rebecca in the 10th of August, 2021</h3><p> Fantastic place, clean, good location, good atention.</p></li>
+	    </ul>
+	  </div>
+	</article>
+      </section>
+    </div>
+  </body>
+  <footer> Best School
+  </footer>
+</html>
+
+      
